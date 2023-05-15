@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All the suite">
+    <test name="AmazonTest">
+        <classes><class name="org.PageTestPackage.HomePageTest">
+            <methods>
+                <include name="homePageTitleTest"/>
+                <include name="validateLogoTest"/>
+                <include name="validateFlagTest"/>
+                <include name="validateCartIconTest"/>
+                <include name="validateSignIn"/>
+            </methods>
+            </class>
+            <class name="org.PageTestPackage.SignInPage1Test">
+              <methods>
+                  <include name="signInPage2TitleTest"/>
+                  <include name="validateForgotPasswordTest"/>
+                  <include name="validatesignInButtonTest"/>
+                  <include name="validatesignIn2Test"/>
+              </methods>
+            </class>
+            <class name="org.PageTestPackage.SignInpageTest">
+                <methods>
+                    <include name="signPageTitleTest"/>
+                    <include name="validateContinueTest"/>
+                    <include name="validateCreateAccTest"/>
+                    <include name="validateNeedHelpTest"/>
+                    <include name="validateSignTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
